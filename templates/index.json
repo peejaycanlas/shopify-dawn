@@ -220,10 +220,10 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_test_riJQPj": {
+    "multicolumn_test_aNi3k6": {
       "type": "multicolumn-test",
       "blocks": {
-        "column_DQkhHg": {
+        "column_RJpkMg": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -232,16 +232,7 @@
             "link": ""
           }
         },
-        "column_JBVLLw": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rLKHj3": {
+        "column_FcGhe8": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -252,9 +243,8 @@
         }
       },
       "block_order": [
-        "column_DQkhHg",
-        "column_JBVLLw",
-        "column_rLKHj3"
+        "column_RJpkMg",
+        "column_FcGhe8"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -281,6 +271,6 @@
     "collage",
     "video",
     "multicolumn",
-    "multicolumn_test_riJQPj"
+    "multicolumn_test_aNi3k6"
   ]
 }
