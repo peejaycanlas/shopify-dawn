@@ -2640,7 +2640,7 @@
       "settings": {
         "title": {
           "label": "Heading",
-          "default": "Multicolumn"
+          "default": "Multicolumn Test 1"
         },
         "image_width": {
           "label": "Image width",
