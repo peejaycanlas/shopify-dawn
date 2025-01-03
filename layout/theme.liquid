@@ -382,9 +382,10 @@
     {{ 'slick.min.js' | asset_url | script_tag }}
 
     <script type="text/javascript">
-    $(document).ready(function() {
-      $('[data-slick]:not(.slick-initialized)').slick();
-    });
+      $(document).ready(function () {
+        // Test change
+        $('[data-slick]:not(.slick-initialized)').slick();
+      });
     </script>
   </body>
 </html>
