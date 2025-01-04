@@ -267,7 +267,7 @@
       "type": "banner",
       "settings": {
         "banner_title": "New Banner Title",
-        "banner_content": "Lorem <strong>ipsum </strong>sit dolor amet"
+        "banner_content": "Lorem <strong>ipsum&nbsp;</strong>sit dolor amet"
       }
     }
   },
