@@ -1,6 +1,23 @@
+{{ 'section-banner.css' | asset_url | stylesheet_tag }}
+
+<div id="banner-{{ section.id }}" class="banner">
+  {% if section.settings.banner_title %}
+    <div class="banner__title">{{- section.settings.banner_title | escape -}}</div>
+  {%  endif %}
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Banner",
+    "class": "banner-class",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "banner_title",
+        "default": "Title",
+        "label": "Banner Title"
+      },
+    ]
   }
 {% endschema %}
