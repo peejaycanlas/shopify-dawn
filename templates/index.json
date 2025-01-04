@@ -266,7 +266,8 @@
     "banner_VUyHQt": {
       "type": "banner",
       "settings": {
-        "banner_title": "New Banner Title"
+        "banner_title": "New Banner Title",
+        "banner_content": "Lorem <strong>ipsum </strong>sit dolor amet"
       }
     }
   },
