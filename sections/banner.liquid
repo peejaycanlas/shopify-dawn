@@ -7,6 +7,13 @@
   {% if section.settings.banner_content != blank %}
     <div class="banner__content">{{ section.settings.banner_content }}</div>
   {% endif %}
+  {% if section.settings.background_image != blank %}
+    {{ 
+      section.settings.background_image 
+      | image_tag:
+        class: 'banner__bg-image'
+    }}
+  {% endif %}
 </div>
 
 {% schema %}
