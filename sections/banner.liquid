@@ -1,9 +1,12 @@
 {{ 'section-banner.css' | asset_url | stylesheet_tag }}
 
 <div id="banner-{{ section.id }}" class="banner">
-  {% if section.settings.banner_title %}
+  {% if section.settings.banner_title != blank %}
     <div class="banner__title">{{- section.settings.banner_title | escape -}}</div>
-  {%  endif %}
+  {% endif %}
+  {% if section.settings.banner_content != blank %}
+    <div class="banner__content">{{- section.settings.banner_content -}}</div>
+  {% endif %}
 </div>
 
 {% schema %}
@@ -18,6 +21,12 @@
         "default": "Title",
         "label": "Banner Title"
       },
+      {
+        "type": "inline_richtext",
+        "id": "banner_content",
+        "default": "Lorem ipsum sit dolor amet",
+        "label": "Banner Content"
+      }
     ],
     "presets": [
       {
