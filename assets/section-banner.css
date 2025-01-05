@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 
-.banner_details {
+.banner__details {
   z-index: 1;
   border: 1px solid #000;
   padding: 20px;
