@@ -4,6 +4,14 @@
   overflow: hidden;
 }
 
+.banner_details {
+  z-index: 1;
+  border: 1px solid #000;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
 .banner__bg-image {
   position: absolute;
   inset: 0;
