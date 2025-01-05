@@ -1,6 +1,6 @@
 {{ 'section-banner.css' | asset_url | stylesheet_tag }}
 
-<div id="banner-{{ section.id }}" class="banner">
+<div id="banner-{{ section.id }}" class="banner banner--{{ section.settings.banner_justify }}">
   <div class="banner__container">
     {% if section.settings.banner_title != blank %}
       <div class="banner__title">{{- section.settings.banner_title | escape -}}</div>
