@@ -1,3 +1,11 @@
 .banner {
   outline: 1px solid blue;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner__bg-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
