@@ -2635,6 +2635,14 @@
         "name": "Multicolumn"
       }
     },
+    "banner": {
+      "settings": {
+        "title": {
+          "label": "Title (from Locales)",
+          "default": "Banner Title"
+        }
+      }
+    },
     "multicolumn-test": {
       "name": "Multicolumn Test",
       "settings": {
