@@ -9,7 +9,7 @@
   {% endif %}
   {% if section.settings.background_image != blank %}
     {{ 
-      section.settings.background_image 
+      section.settings.background_image.src
       | image_tag:
         class: 'banner__bg-image'
     }}
