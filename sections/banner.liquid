@@ -1,12 +1,12 @@
 {{ 'section-banner.css' | asset_url | stylesheet_tag }}
 
 <div id="banner-{{ section.id }}" class="banner">
-  <div class="banner__details">
+  <div class="banner__container">
     {% if section.settings.banner_title != blank %}
       <div class="banner__title">{{- section.settings.banner_title | escape -}}</div>
     {% endif %}
     {% if section.settings.banner_content != blank %}
-      <div class="banner__content">{{ section.settings.banner_content }}</div>
+      <div class="banner__details">{{ section.settings.banner_content }}</div>
     {% endif %}
   </div>
   
