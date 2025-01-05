@@ -269,7 +269,8 @@
       "settings": {
         "banner_title": "New Banner Title",
         "banner_content": "Lorem <strong>ipsum</strong> sit dolor amet",
-        "background_image": "shopify://shop_images/distressed-kids-jeans.jpg"
+        "background_image": "shopify://shop_images/distressed-kids-jeans.jpg",
+        "banner_justify": "justify-right"
       }
     }
   },
