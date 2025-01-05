@@ -10,7 +10,8 @@
   {% if section.settings.background_image != blank %}
     {{ 
       section.settings.background_image
-      | image_url 
+      | image_url:
+        width: 1200
       | image_tag:
         class: 'banner__bg-image'
     }}
